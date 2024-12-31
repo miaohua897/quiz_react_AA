@@ -1,6 +1,6 @@
 # React + Vite
 
-"This project is a practice exercise."
+"This project is a practice exercise." 
 
 There are three pages in the projects, home,quiz and result;
 
@@ -19,6 +19,11 @@ After, you finish the quiz, you can get result at result page.
 The review page shown below.
 
 ![result](./src/images/review.png)
+
+Dec.30th 2024 quiz sections
+Dec. 31th 2024  review page
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
