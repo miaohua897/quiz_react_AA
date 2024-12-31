@@ -10,13 +10,15 @@ const Quiz =()=>{
     const [values,setValues]= useState([]);
     const [ready,setReady] = useState(false);
     const navigate = useNavigate();
+    
 
     const handleValueUpdaed=(code,value)=>{
      const newValue =[...values];
      newValue[code]=value;
      setValues(newValue);
+     setReady(newValue.length=== quizData.length);
     };
-    
+
     const handleSubmit=(e)=>{
         e.preventDefault();
         let result =[...values];
