@@ -1,10 +1,14 @@
 // src/App.jsx
 
 import QuizRoute from "./components/QuizRoute";
+import QuizProvider from "./contexts/QuizProvider";
 
 function App() {
   return (
-    <QuizRoute/>
+    <QuizProvider>
+   <QuizRoute/>
+    </QuizProvider>
+ 
   );
 }
 
