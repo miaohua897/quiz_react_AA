@@ -12,12 +12,12 @@ const QuizRoute =()=>{
             {'                '}
             <NavLink to = '/quiz'>Quiz</NavLink>
             {'                '}
-            <NavLink to = '/result'>Result</NavLink>
+            <NavLink to = '/quiz/result'>Result</NavLink>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/quiz" element={<Quiz />} />
-          <Route path="/result" element={<Result />} />
+          <Route path="/quiz/result" element={<Result />} />
         </Routes>
       </BrowserRouter>
     )

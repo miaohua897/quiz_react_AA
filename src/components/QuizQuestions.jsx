@@ -1,18 +1,21 @@
 
 import React, {useState} from 'react';
 
-const quizQuestions=({code,question,onChange})=>{
+const QuizQuestions=({code,question,OptionA,OptionB,OptionC,OptionD,onChange})=>{
     const [value,setValue]=useState('');
   return (
     <div>
       <p>{question}</p>
+      <p>{OptionA}</p>
+      <p>{OptionB}</p>
+      <p>{OptionC}</p>
+      <p>{OptionD}</p>
       <select
       code = {code}
       onChange={(e)=>{
         setValue(e.target.value);
-        onChange(e.target.value);
-
-    }}
+        onChange(e.target.value);}}
+        value={value}
       >
       <Options/>
       </select>
@@ -37,4 +40,4 @@ const Options =()=>{
               </option>    
     ]
 }
-export default quizQuestions;
+export default QuizQuestions;
