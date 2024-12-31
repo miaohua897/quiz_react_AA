@@ -1,10 +1,6 @@
 
-const ReviewSingleQuestion =({name,info})=>{
-    return (
-        <div>
-            <p>{info}</p>
-            <p>{name}</p>
-        </div>
-    )
+const ReviewSingleQuestion =({index,name})=>{
+    return [ <option key ={index}>{name}</option>]  
+    
 }
 export default ReviewSingleQuestion;

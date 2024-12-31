@@ -2,17 +2,17 @@
 export const reviewData=[
     {
         id:"1",
-        name:'name',
-        info:'info'
+        name:'name1',
+        info:'info1'
     },
     {
         id:"2",
-        name:'name',
-        info:'info'
+        name:'name2',
+        info:'info2'
     },
     {
         id:"3",
-        name:'name',
-        info:'info'
+        name:'name3',
+        info:'info3'
     }
 ]
