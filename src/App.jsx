@@ -1,7 +1,11 @@
 // src/App.jsx
 
+import QuizRoute from "./components/QuizRoute";
+
 function App() {
-  return <h1> Hello from App </h1>;
+  return (
+    <QuizRoute/>
+  );
 }
 
 export default App;
