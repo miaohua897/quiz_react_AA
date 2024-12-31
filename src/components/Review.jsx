@@ -4,11 +4,15 @@ import { useState } from "react";
 
 const Review =()=>{
     const [name,setName] = useState('');
+    const selectedReview = reviewData.find(el => el.name === name);
+    console.log('selectedReview ',selectedReview );
     return (
         <div>
             <form>
                 <div>Learning with fun🤩</div>
-                <p>{name}</p>
+                <p>
+                   {selectedReview?`${selectedReview.info}`:'select one'}  
+                    </p>
                 <select onChange = {(e)=>{setName(e.target.value)}}>
                 {
                           
