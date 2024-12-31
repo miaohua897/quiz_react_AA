@@ -7,6 +7,7 @@ import Result from './Result';
 const QuizRoute =()=>{
     return (
         <BrowserRouter>
+        <div className ='nav_link'>
         <nav>
             <NavLink to = '/'>Home</NavLink>
             {'                '}
@@ -14,6 +15,8 @@ const QuizRoute =()=>{
             {'                '}
             <NavLink to = '/quiz/result'>Result</NavLink>
         </nav>
+        </div>
+       
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/quiz" element={<Quiz />} />

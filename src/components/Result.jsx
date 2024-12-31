@@ -17,7 +17,7 @@ const Result =()=>{
           setCount(sum);
     },[qResults])
     return (
-        <div>Result Here: 🚀
+        <div className='welcome'>Result Here: 🚀
 
             <ul>
                 {'the accuracy rate: '+Math.round(100*count/qResults.length)+"%"}

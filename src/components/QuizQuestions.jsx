@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 const QuizQuestions=({code,question,OptionA,OptionB,OptionC,OptionD,onChange})=>{
     const [value,setValue]=useState('');
   return (
-    <div>
+    <div >
       <p>{question}</p>
       <p>{OptionA}</p>
       <p>{OptionB}</p>
@@ -16,7 +16,7 @@ const QuizQuestions=({code,question,OptionA,OptionB,OptionC,OptionD,onChange})=>
         setValue(e.target.value);
         onChange(e.target.value);}}
         value={value}
-      >
+       className='questionSelect'>
       <Options/>
       </select>
     </div>
@@ -25,17 +25,17 @@ const QuizQuestions=({code,question,OptionA,OptionB,OptionC,OptionD,onChange})=>
 
 const Options =()=>{
     return [
-        <option key='prompt' value="">Select one...</option>,
-        <option key ='1' value={"A"}>
+        <option key='prompt' value="" className='questionOptions'>Select one...</option>,
+        <option key ='1' value={"A"} className='questionOptions'>
              A
         </option>,
-         <option  key='2' value={"B"}>
+         <option  key='2' value={"B"} className='questionOptions'>
               B
               </option>,
-           <option  key='3' value={"C"}>
+           <option  key='3' value={"C"} className='questionOptions'>
               C
               </option>,
-            <option key='4' value={"D"}>
+            <option key='4' value={"D"} className='questionOptions'>
               D
               </option>    
     ]

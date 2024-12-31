@@ -21,8 +21,9 @@ const Quiz =()=>{
         navigate('./result')
     }
     return (
-        <form onSubmit={handleSubmit}>
-             <div>Quiz Here: 🚀</div>
+        <div className='quiz_form'>
+            <form onSubmit={handleSubmit}>
+             <div className='quiz_questions'>Quiz Here: 🚀</div>
              {
                 quizData.map((q,index)=>{
                     return (
@@ -44,9 +45,11 @@ const Quiz =()=>{
                 })
              }
             <div>
-            <button type='submit'>Submit</button>
+            <button type='submit' className='submitButton'>Submit</button>
             </div>
         </form>
+        </div>
+       
       
     )
 }
