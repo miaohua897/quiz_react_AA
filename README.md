@@ -1,6 +1,9 @@
 # React + Vite
 
 "This project is a practice exercise."
+![home](./images/home.png)
+![quiz](./images/quiz.png)
+![result](./images/result.png)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
