@@ -1,7 +1,7 @@
 import { usequizContext } from "../contexts/QuizProvider";
 import {quizData} from '../mockdata/data.js';
 
-import React,{useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 const Result =()=>{
     const {qResults} = usequizContext();
     const [count,setCount] = useState(0);

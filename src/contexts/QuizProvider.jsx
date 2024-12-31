@@ -1,4 +1,4 @@
-import React,{useState,useEffect,useContext, Children} from 'react';
+import React,{useState,useContext} from 'react';
 const quizContext = React.createContext();
 export const usequizContext =()=>useContext(quizContext);
 

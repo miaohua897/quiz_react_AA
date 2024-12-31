@@ -1,5 +1,5 @@
 
-import React, {useState} from 'react';
+import  {useState} from 'react';
 
 const QuizQuestions=({code,question,OptionA,OptionB,OptionC,OptionD,onChange})=>{
     const [value,setValue]=useState('');
