@@ -8,12 +8,15 @@ import { useNavigate } from 'react-router-dom';
 const Quiz =()=>{
     const {setQResults} = usequizContext();
     const [values,setValues]= useState([]);
+    const [ready,setReady] = useState(false);
     const navigate = useNavigate();
+
     const handleValueUpdaed=(code,value)=>{
      const newValue =[...values];
      newValue[code]=value;
      setValues(newValue);
     };
+    
     const handleSubmit=(e)=>{
         e.preventDefault();
         let result =[...values];
@@ -45,7 +48,7 @@ const Quiz =()=>{
                 })
              }
             <div>
-            <button type='submit' className='submitButton'>Submit</button>
+            <button type='submit' className='submitButton' disabled={!ready}>Submit</button>
             </div>
         </form>
         </div>
