@@ -16,6 +16,9 @@ After, you finish the quiz, you can get result at result page.
 
 ![result](./src/images/result.png)
 
+The review page shown below.
+
+![result](./src/images/review.png)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

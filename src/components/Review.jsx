@@ -7,13 +7,14 @@ const Review =()=>{
     const selectedReview = reviewData.find(el => el.name === name);
     console.log('selectedReview ',selectedReview );
     return (
-        <div>
-            <form>
-                <div>Learning with fun🤩</div>
-                <p>
+        <div >
+            <form className="reviewpage">
+                <div >Learning with fun🤩</div>
+                <p className="reviewInfo">
                    {selectedReview?`${selectedReview.info}`:'select one'}  
                     </p>
-                <select onChange = {(e)=>{setName(e.target.value)}}>
+                    <div >
+                    <select onChange = {(e)=>{setName(e.target.value)}} className='reviews'>
                 {
                           
                           reviewData.map(r=>{
@@ -32,6 +33,8 @@ const Review =()=>{
                                     
                       }
                 </select>
+                    </div>
+               
                 
             </form>
         </div>

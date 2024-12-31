@@ -62,3 +62,22 @@ body {
   border: none;
   background-color: linear-gradient(to right, rgb(241, 218, 198), #feb47b); 
 }
+.reviews{
+  font-size: 12px;
+  /* color:red; */
+}
+.reviewpage{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  font-size: 32px;
+}
+.reviewInfo{
+  color:darkslategray;
+  margin:10px;
+  padding:30px;
+  text-align: justify;
+}
