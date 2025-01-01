@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(to right, white, #feb47b); 
+  background: linear-gradient(to right, white, rgb(191, 219, 191)); 
   height: 100vh; 
   margin: 0;
   font-size: 18px;
