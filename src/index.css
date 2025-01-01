@@ -3,6 +3,7 @@ body {
   background: linear-gradient(to right, white, #feb47b); 
   height: 100vh; 
   margin: 0;
+  font-size: 18px;
 }
 
 .nav_link nav{
@@ -80,4 +81,13 @@ body {
   margin:10px;
   padding:30px;
   text-align: justify;
+}
+.resulthere{
+  margin-top:50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+
 }

@@ -1,0 +1,30 @@
+.result-slider {
+    height: 200px;
+  }
+  
+  .result-thumb {
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    cursor: grab;
+  }
+  
+  .result-track {
+    top: 0;
+    bottom: 0;
+    background: gray;
+    border-radius: 999px;
+    left: 5px;
+    width: 15px;
+  }
+  
+  .result-track.result-track-0 {
+    background: red;
+  }
+  
+
+  

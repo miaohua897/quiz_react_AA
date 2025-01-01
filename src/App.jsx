@@ -6,7 +6,7 @@ import QuizProvider from "./contexts/QuizProvider";
 function App() {
   return (
     <QuizProvider>
-   <QuizRoute/>
+     <QuizRoute/>
     </QuizProvider>
  
   );
