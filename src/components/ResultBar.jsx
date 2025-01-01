@@ -1,6 +1,6 @@
 import ReactSlider from 'react-slider';
 
-import { useEffect,useState } from 'react';
+
 import './ResultBar.css';
 
 function ResultBar({accuracyRate}) {

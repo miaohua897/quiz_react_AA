@@ -21,14 +21,18 @@ const Result =()=>{
           setCount(sum);
     },[qResults])
     return (
-        <div className="resulthere">Result Here: 🚀
+        <div className="resulthere"> <h1>
+            Result Here: 🚀
+            </h1>
 
             <ul>
-                {'the accuracy rate: '+Math.round(100*count/qResults.length)+"%"}
+               <p style={{fontSize:32}}>
+               {'the accuracy rate: '+Math.round(100*count/qResults.length)+"%"}
+                </p> 
             </ul>
          
            <ResultBar accuracyRate={accuracyRate}/>
-            <ul >
+            <ul style={{fontSize:32}}>
                 {qResults.map((el,index) => <li key={index}>{`question ${index+1}: `+el}</li>)}
             </ul>
         </div>

@@ -9,21 +9,21 @@
     text-align: center;
     background-color: #000;
     color: #fff;
-    border-radius: 50%;
+    border-radius: 80%;
     cursor: grab;
   }
   
   .result-track {
     top: 0;
     bottom: 0;
-    background: gray;
-    border-radius: 999px;
+    background: lightgray;
+    border-radius: 25%;
     left: 5px;
     width: 15px;
   }
   
   .result-track.result-track-0 {
-    background: red;
+    background: lightslategray;
   }
   
 
